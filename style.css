@@ -33,20 +33,6 @@ body{
   border-radius: 30px;
 }
 
-/* .bgcircle {
-  position: absolute;
-  top: 0;
-  bottom: 200px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  background-color: #FFF4D1;
-  border-radius: 120px;
-  width: 250px;
-  height:250px;
-} */
-
-
 
 .Sobble{
   text-align: center;
@@ -58,7 +44,7 @@ body{
 
   align-items: center;
   justify-content: center;
-  color: #969696;
+  color: #798086;
   text-align: center;
   margin-top: 200px;
 }
