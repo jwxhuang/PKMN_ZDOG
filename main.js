@@ -430,7 +430,7 @@ longLines.copyGraph({
 
 
 function animate() {
-illo.rotate.y += 0.01;
+illo.rotate.y += 0.03;
   illo.updateRenderGraph();
   requestAnimationFrame(animate);
 }
