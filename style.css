@@ -31,12 +31,14 @@ body{
   right: 0;
   margin: auto;
   border-radius: 30px;
+  margin-top: 120px;
 }
 
 .Sobble{
   text-align: center;
   font-size: 260px;
   color: #FFF4D1;
+  margin-top: 50px;
 }
 
 .Instruction{
