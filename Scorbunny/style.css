@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: montserrat;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body{
+  padding: 0px;
+  margin: 0px;
+  background-color: #ffcd0f;
+  background-image: radial-gradient(farthest-corner at 79% -108%, #fff4cc 3%, #fff0b8 31%, #ff9b8e 100%);
+}
+
+.zdog-canvas {
+  cursor: move;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 30px;
+  margin-top: 70px;
+}
+
+.Scorbunny{
+  text-align: center;
+  font-size: 260px;
+  color: #FFF4D1;
+  margin-top: 50px;
+}
+
+.Instruction{
+  align-items: center;
+  justify-content: center;
+  color: #6c6969;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.Zdog{
+  align-items: center;
+  justify-content: center;
+  color: #6c6969;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 9px;
+}
