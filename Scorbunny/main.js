@@ -14,8 +14,7 @@ const illo = new Zdog.Illustration({
   element: '.zdog-canvas',
   dragRotate: true,
   zoom: 15,
-  //rotate: { y: -TAU / 6 },
-  // rotate: {y: -TAU/6, x:-TAU/32},
+  rotate: { x: TAU / 32 },
   onDragStart: function () {
     isSpinning = false;
   },
@@ -394,12 +393,8 @@ earAnchor.copyGraph({
   rotate: { z: TAU / 32, y: TAU / 32 },
 });
 
-
-
-
-
 function animate() {
-  //illo.rotate.y += 0.03;
+  illo.rotate.y += 0.03;
   illo.updateRenderGraph();
   requestAnimationFrame(animate);
 }
